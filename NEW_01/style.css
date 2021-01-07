@@ -1,7 +1,8 @@
 body{
     background: #53aae4;
     font-family: Verdana;
-
+    max-width: 900px;
+    margin: auto;
 
 }
 
@@ -47,10 +48,12 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: initial;
+    text-align: justify;
 }
 
 .post_image{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    width: 100%;
 
 
 }
