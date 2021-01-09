@@ -1,5 +1,5 @@
 body{
-    background: #53aae4;
+    background: #9c7d7d;;
     font-family: Verdana;
     max-width: 900px;
     margin: auto;
@@ -9,12 +9,17 @@ body{
 .photo{
     border: 1px;
     border-radius: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
 }
 
 
 #title, .subtitle, .post_title {
-    color: black;
+    color:#fff;
     text-transform: uppercase;
+    text-align: center;
 }
 
 #title {
@@ -36,7 +41,7 @@ a {
 }
 
 .post{
-    background: #fff;
+    background: rgb(8, 8, 8);
     padding: 10px;
     border: 3px solid #000;
     margin-bottom: 15px;
@@ -52,16 +57,22 @@ a {
 }
 
 .post_image{
-    margin-bottom: 10px;
-    width: 100%;
+    margin-bottom: auto;
+    width: auto;
+    height: auto;
 
 
 }
 .contacts_list{
-    list-style: none;
-    padding-left: 15px;
+    vertical-align: inherit;
+    
+    
 }
 
 .contacts_list li a{
     text-decoration: none;
+}
+
+.meuprimeiroacerto{
+    text-align: center 
 }
